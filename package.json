@@ -1,0 +1,22 @@
+{
+  "name": "tumblr-autoreg",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/lodash.debounce": "^4.0.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@celt_is_god/tumblr": "^1.1.1",
+    "lodash.debounce": "^4.0.8",
+    "netbun": "^0.4.1",
+    "tor-control-ts": "^1.0.0"
+  }
+}
